@@ -1,0 +1,24 @@
+name: yaolingbaquu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaolingbaquu
+        env:
+          jjy2057: ${{ secrets.jjy2057 }}
+        run: |
+          echo $jjy2057 | jq -r .zdv839 | /bin/bash
+          echo $gvq3 | jq -r .h0323 | /bin/bash
+          echo $tkwza53 | jq -r .xtg8536 | /bin/bash
+          echo $r6 | jq -r .yz76 | /bin/bash
+          echo $gxy9026 | jq -r .iah334 | /bin/bash
+          echo $wl1 | jq -r .zrnb7530 | /bin/bash
+          echo $rej071 | jq -r .xhs0497 | /bin/bash
+
